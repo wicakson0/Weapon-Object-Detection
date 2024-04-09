@@ -1,0 +1,14 @@
+.env
+experiments
+remapped-train-80-val-20_coco
+weapon_detection_v13
+tmp
+temp
+pth
+yolox
+AutogluonModels
+model
+yolox_l_8x8_300e_coco_20211126_140236-d3bd2b23.pth
+yolox_l_8x8_300e_coco_20211126_140236-d3bd2b23_fine_tuned.pth
+*.mp4
+*.zip
