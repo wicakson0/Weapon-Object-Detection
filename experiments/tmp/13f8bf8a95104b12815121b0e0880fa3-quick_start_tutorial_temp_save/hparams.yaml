@@ -1,0 +1,12 @@
+optim_type: adamw
+lr_choice: two_stages
+lr_schedule: cosine_decay
+lr: 5.0e-05
+lr_decay: 0.9
+end_lr: 0
+lr_mult: 100
+weight_decay: 0.001
+warmup_steps: 0.0
+validation_metric_name: map
+custom_metric_func: null
+efficient_finetune: null
