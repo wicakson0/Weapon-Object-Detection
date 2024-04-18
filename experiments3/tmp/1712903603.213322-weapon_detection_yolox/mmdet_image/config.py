@@ -1,3 +1,4 @@
+_base_ = 'yolox_l_8xb8-300e_coco.py'
 auto_scale_lr = dict(base_batch_size=16, enable=False)
 checkpoint_config = dict(interval=1)
 custom_hooks = [
